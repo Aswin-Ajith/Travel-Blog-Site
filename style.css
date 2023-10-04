@@ -1,0 +1,344 @@
+.cover{
+    position: relative;
+}
+.cover img{
+    width: 100%;
+    
+}
+body{
+    background-color: rgb(196, 111, 0);
+}
+.navbar-brand{
+    font-family: 'Bilbo Swash Caps', cursive;
+    margin-top: 15px;
+}
+.travel-icon{
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 200% 0;
+    transition: .5s;
+}
+.travel-icon:hover{
+    transform: rotate(-10deg) scale(1.1) ;
+    margin-top: -5px;
+
+}
+.navbar{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.836),rgba(0, 0, 0, 0.025));
+
+}
+.collapse{
+    display: flex;
+    justify-content: end;
+    font-family: 'Junge', serif;
+}
+.cover h1{
+    /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.385); */
+    position: absolute;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    top: 300px;
+    left: 150px;
+    font-family: 'Nothing You Could Do', cursive;    /* background-color: rgba(0, 0, 0, 0.092); */
+    padding: 30px;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 48px;
+    }
+.intro{
+    margin-top: 50px;
+    font-family: 'Neucha', cursive;
+    width: 800px;
+    margin-left: 400px;
+}
+.intro h2{
+    font-size: 38px;
+}
+.intro p{
+    font-size: 22px;
+}
+.intro p a{
+    text-decoration: none;
+}
+.col-3 p{
+    font-size: 16px;
+    font-family: 'Junge', serif;
+    
+}
+.blogs .row .col-3{
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+    cursor: pointer;
+}
+.blogs .row .col-3 .card{
+    transition: 0.3s;
+}
+.blogs .row .col-3 .card:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.403);
+}
+.col-4{
+    transition: .5s;
+    filter: brightness(0.5);
+    
+
+}
+.col-4:hover {
+    
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.325);
+    transform: translate(0%,-1%);
+    filter: brightness(1);
+}
+.col-4 h5{
+    font-size: 38px;
+
+}
+.col-4 p{
+    font-family: 'Junge', serif;
+    background-color: rgba(0, 0, 0, 0.085);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.488);
+    border-radius: 5px;
+}
+.vlogs .row .col video{
+    border: 10px solid rgba(65, 73, 85, 0.221);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.vlogs .row .col h4{
+    background-color: rgba(65, 73, 85, 0.158);
+    width: 348px;
+    margin-left:71px;
+    margin-top: -6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.images .contain img{
+    content-visibility: auto;
+}
+
+.images::-webkit-scrollbar{
+        width: 5px;
+        height: 0px;
+        
+}
+.images::-webkit-scrollbar-thumb{
+    background-color: rgb(72, 72, 83);
+    border-radius: 3px;
+}
+.collapse a:hover{
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.714);
+}
+@media screen and (max-width:450px)
+{
+    .header .navbar .container-fluid .navbar-brand h2{
+        
+        padding: 0;
+        font-size: 22px;      
+        margin-top: -30px;
+    }
+    .navbar-brand{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .travel-icon{
+        height: 25px;
+        width: 20px;
+        margin-top:-30px;
+        margin-left: -90px;
+        margin-right: -70px !important;
+        
+    }
+    #a10{
+        margin-left: -150px;
+    }
+    .navbar{
+        height: 40px;
+        display: unset;
+        position: sticky;
+        
+    }
+    .collapse{
+        display: unset;
+        justify-content: start;
+    }
+    .cover h1{
+        font-size: 16px;
+        width: 50%;
+        top: 60px;
+        left: 30px;
+    }
+    .intro h2{
+        font-size: 18px;
+    }
+    .intro p{
+        font-size: 14px;
+        
+    }
+    .intro{
+        margin-left: 20px;
+        width: 90%;
+    }
+    .map h4{
+        font-size: 16px;
+    }
+    #home .map img{
+        width: 90% !important;
+        height: 200px !important;
+    }
+   .blogs h2{
+        font-size: 18px ;
+   }
+   .blogs .row .col-3 .card p{
+    font-size: 4px;
+    padding: 0px;
+    margin: 0px;
+   }
+   .destination h3{
+    font-size: 18px;
+   }
+   .carousel-inner img{
+    height: 100px !important;
+   }
+   .carousel-caption h5{
+    font-size: 12px !important;
+    
+   }
+   .carousel-inner .carousel-caption{
+    display: unset !important;
+    top: 35px !important;
+   }
+   .carousel-caption p{
+    font-size: 6px;
+   }
+   .video h3{
+    font-size: 18px;
+   }
+   .video video{
+    width: 80% !important;
+   }
+   .video h1{
+    font-size: 20px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+
+   }
+   .vlogs .heading1{
+    margin-top: 0px !important;
+    text-align: center !important;
+    margin-left: 80px !important;
+   }
+   .vlogs h4{
+    font-size: 14px;
+    /* padding-left: 20px !important; */
+    margin-top: 5px !important;
+    text-align: center !important;
+    /* margin-left: 80px !important; */
+   }
+   .vlogs .heading1 .fa-solid{
+    width: 5px !important;
+    height: 5px !important;
+    opacity: 0;
+   }
+   .vlogs .row .col video{
+    height: 280px !important;
+    border: 5px solid rgba(65, 73, 85, 0.221);
+   }
+   .vlogs .row .col h4{
+    width: 110px;
+    background-color: transparent;
+    margin-left: 30px;
+    font-size: 10px;
+    margin-top: 0px !important;
+   }
+   .vlogs .row{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin-top: -50px !important;
+   }
+   .heading3{
+    margin-left: 135px !important;
+    
+   }
+   .frames .heading1 h4{
+    font-size: 14px;
+    margin-top: 0px !important;
+    /* padding-left: 20px !important; */
+    text-align: center !important;
+    margin-left: 80px !important;
+    
+   }
+   .frames .heading1 .fa-solid{
+    opacity: 0;
+   }
+   .images{
+    width: 85% !important;
+    margin-left: 33px !important;
+    height: 300px !important;
+    margin-top: 0px !important;
+   }
+   .images .row{
+    display: flex !important;
+    flex-direction: row;
+    margin-bottom: 5px !important;
+    margin-top: 10px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+
+   }
+   .images .contain{
+    width: 89px !important;
+    height: 65px !important;
+    margin: 0% !important;
+    margin-right: 0% !important;
+   }
+   .images img{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 5px !important;
+    margin-right: 0px !important;
+    background-size: unset !important;
+   }
+   .form .email{
+    width: 75% !important;
+   }
+   .form .textarea{
+    margin-top: 20px !important;
+    width: 75% !important;
+    height: 100px !important;
+   }
+   .form .submit{
+    margin-top: 20px !important;
+   }
+   .social .btn{
+    transform: scale(0.5);
+   }
+   .last{
+    font-size: 10px;
+   }
+   .collapse ul li .nav-link{
+    font-size: 10px !important;
+    margin-left: 10%;
+   }
+   .collapse .navbar-nav {
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.373);
+    width: 150px;
+    margin-left: 60%;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+   }
+   .collapse .navbar-nav .dropdown-menu{
+    background-image: none !important;
+    background-color: transparent !important;
+    width: 100%px !important;
+    font-size: 8px;
+    color: papayawhip;
+   }
+}
